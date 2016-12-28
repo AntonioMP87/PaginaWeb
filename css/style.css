@@ -1,0 +1,152 @@
+/*Estilo CSS Barra Superior*/
+
+.collapse{
+	background:#F5F5F5;
+
+}
+
+#logotipo{
+	width: 26%;
+	margin-left: 1%;
+	margin-top: 1%;
+
+}
+
+.navbar{
+	padding-bottom: 0.5%;
+	padding-top: 0.5%;
+	background: #F5F5F5;
+}
+
+#Contenido{
+	width: 79%;
+	margin: 0 auto;
+	margin-top: 4.5%;
+	margin-right: 2%;
+	padding-right: 13%;
+}
+
+/* ------------------- */
+
+
+/*Estilo CSS Cuerpo Pagina (template.php)*/
+
+.formulario{
+	width: 40%;
+	margin: 0 auto;
+	margin-top: 5%;
+	margin-bottom: 7%;
+
+}
+
+/*Panel de usuario*/
+#Panel{
+	width: 16%;
+	margin-top: 3%;
+	margin-left: 3%;
+	float: left;
+
+}
+
+
+/*Datos usuario*/
+#TablaUsuario{
+	width: 40%;
+	margin-left: 30%;
+	padding-bottom: 3%;
+}
+
+
+/*Boton de guardar datos usuario*/
+#GCambios{
+	background-color: #E74C3C;
+	color: white;
+}
+
+
+#formEnvioMens{
+	width: 50%;
+	margin-left: 30%;
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+
+
+#BandejaEntrada{
+	width: 70%;
+	margin-left: 20%;
+	padding-bottom: 3%;
+}
+
+
+/* ------------------- */
+
+/* Avisos de error*/
+
+.mnsError {
+	background-color:#A52A2A;
+	position: relative;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	float:right;
+	padding: 0.5%;
+	margin-top: 1%;
+	
+}
+.mnsError:before {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	
+	border-bottom-color:#A52A2A;
+	border-width: 10px;
+	margin-left: -10px;
+}
+
+
+
+/* Aviso de mensaje enviado */
+#MensajeEnvio{
+	background-color: #3CB371;
+	color: #FFEBCD;
+	margin-left: 40%;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	padding: 0.5%;
+	position: absolute;
+
+}
+
+/*Aviso de bandeja de entrada vacia*/
+#BandejaVacia{
+	background-color: #3CB371;
+	color: #FFEBCD;
+	margin-left: 10%;
+	border-radius: 4px 4px 4px 4px;
+	color: white;
+	padding: 0.5%;
+	position: absolute;
+}
+
+/* ------------------- */
+
+/* ------ Iconos -------*/
+
+.imagenes{
+	width: 15%;
+}
+
+#imgBorrar{
+	width: 18px;
+}
+
+
+#iconExit{
+	width: 15%;
+	margin-left: 3%;
+}

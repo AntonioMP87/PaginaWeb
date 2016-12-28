@@ -1,0 +1,10 @@
+En el codigo he implementado las siguientes utilidades:
+
+- Registro de usuarios.
+- Login de usuarios.
+- Recordatorio de contraseñas con la libreria PHPMailer.
+- Encriptacion de contraseñas con hash.
+- Cambio de contraseñas.
+- Sistema de mensajeria entre usuarios.
+
+(En un futuro proximo se ira perfeccionando y añadiendo nuevas funcionalidades).
