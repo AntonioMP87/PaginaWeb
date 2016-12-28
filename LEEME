@@ -8,3 +8,10 @@ En el codigo he implementado las siguientes utilidades:
 - Sistema de mensajeria entre usuarios.
 
 (En un futuro proximo se ira perfeccionando y añadiendo nuevas funcionalidades).
+
+A tener en cuenta:
+
+- En el index.php solo se cargan los distintos archivos.
+- Las funciones php estan en la carpeta "Controllers" (ademas del archivo javascript que regula las llamadas ajax).
+- La clase PHPMailer se encuentra en el directorio "Clases".
+- El archivo SQL importa la BDD usada.
